@@ -24,6 +24,7 @@ namespace BeehiveManagementSystem
         private Queen queen = new Queen();
         private DispatcherTimer timer = new DispatcherTimer();
 
+
         public MainWindow()
         {
             InitializeComponent();

@@ -27,11 +27,11 @@ namespace BeehiveManagementSystem
 
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent();          
             statusReport.Text = queen.StatusReport;
-            timer.Tick += Timer_Tick;
-            timer.Interval = TimeSpan.FromSeconds(1.5);
-            timer.Start();
+            //timer.Tick += Timer_Tick;
+            //timer.Interval = TimeSpan.FromSeconds(1.5);
+            //timer.Start();
         }
 
         private void Timer_Tick(object sender, EventArgs e)
